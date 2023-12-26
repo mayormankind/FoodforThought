@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+section {
+  width: 100%;
+  height: 100%;
+}
+section div {
+  width: 100%;
+  max-width: 700px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: poppins, sans-serif;
+}
+body main {
+  width: 100%;
+  height: 100%;
+}
+body main .navbar {
+  background: white;
+  width: 100%;
+  padding: 10px 0;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+body main .navbar ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 600px;
+  margin: 0 auto;
+}
+body main .navbar ul li a {
+  color: black;
+}
+body main .navbar ul li a:hover {
+  border-bottom: 2px solid #2c4a6e;
+}
+body main .navbar ul li a img {
+  width: 80px;
+  height: 90px;
+}
+body main .home {
+  width: 100%;
+  height: 100vh;
+  background: url("images/b.jfif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+body main .home .homewrapper {
+  width: 100%;
+  max-width: 700px;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: center;
+}
+body main .home .homewrapper .text {
+  color: white;
+  display: grid;
+  gap: 15px;
+}
+body main .home .homewrapper button {
+  width: 50%;
+  height: 50px;
+  margin: auto;
+  background: #2c4a6e;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+}
+body main .home .homewrapper button a {
+  color: white;
+}
+body main .about {
+  padding: 70px 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+body main .about .aboutwrapper {
+  text-align: align;
+  width: 100%;
+  height: 100%;
+  max-width: 800px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+body main .about .aboutwrapper .aboutcontent {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+body main .about .aboutwrapper .aboutcontent p {
+  text-align: justify;
+}
+body main .about .aboutwrapper .aboutcontent img {
+  width: 100%;
+  height: 100%;
+}
+body main .bestfood {
+  padding: 80px 0;
+  height: 100%;
+  background: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+body main .bestfood .bestwrap {
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+body main .bestfood .bestwrap h2 {
+  font-size: 30px;
+}
+body main .bestfood .bestwrap .foodimages {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  gap: 10px;
+  flex-wrap: wrap;
+}
+body main .bestfood .bestwrap .foodimages .image {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+body main .bestfood .bestwrap .foodimages .image:hover {
+  transform: translateY(-10px);
+}
+body main .bestfood .bestwrap .foodimages .image img {
+  width: 100%;
+  height: 300px;
+}
+body main .footer {
+  background: #000;
+  color: white;
+}
+body main .footer .footerWrapper {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  margin: 0 auto;
+  padding: 70px 0;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+body main .footer .footerWrapper .info {
+  flex: 0.4;
+}
+body main .footer .footerWrapper .info a img {
+  width: 100px;
+}
+body main .footer .footerWrapper .footcontent {
+  flex: 0.6;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+body main .footer .footerWrapper .footcontent .contact {
+  display: grid;
+  width: 100%;
+  max-width: 200px;
+  text-align: center;
+  gap: 20px;
+}
+body main .footer .footerWrapper .footcontent .contact h3 {
+  text-transform: uppercase;
+}
+body main .footer .footerWrapper .footcontent .contact ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+body main .footer .footerWrapper .footcontent .contact ul li {
+  font-size: 14px;
+  display: inline;
+}
+body main .footer .footerWrapper .footcontent .contact ul li a {
+  color: white;
+}/*# sourceMappingURL=style.css.map */
